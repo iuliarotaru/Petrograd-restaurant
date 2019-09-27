@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <!--Meta tags-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--External links-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Niconne"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!--Page title-->
+    <title>Petrograd Restaurant</title>
+  </head>
+
+  <body>
+    <!--Header-->
+    <div class="container">
+      <h1 class="restaurant fade-in">PETROGRAD</h1>
+      <img src="imgs/restaurant.jpg" alt="restaurant" class="mainPicture" />
+    </div>
+
+    <div class="wrapper fade-in">
+      <nav>
+        <a href="#" id="all">ALL</a>
+      </nav>
+    </div>
+
+    <main><!--Info will be displayed here--></main>
+
+    <!--Modal area-->
+    <div class="modalbg hide fade-in">
+      <article id="modal">
+        <button>Close</button>
+        <img class="modal-image" src="data-image" />
+        <h1 class="modal-name">NAME</h1>
+        <p class="modal-description">LONG DESCR.</p>
+        <h4 class="modal-price">PRICE</h4>
+        <p class="modal-region">REGION</p>
+        <p class="modal-allergens">ALLERGENS</p>
+        <p class="modal-stars">STARS</p>
+      </article>
+    </div>
+
+    <!--Template area-->
+    <template id="myTemp">
+      <article>
+        <img src="IMG" />
+        <h2>NAME</h2>
+        <h3>PRICE</h3>
+        <h4 class="discount hide">DISCOUNT</h4>
+        <p class="description">DESCRIPTION</p>
+        <p class="alcohol hide">ALCOHOL</p>
+        <p class="vegetarian">Vegetarian</p>
+        <button class="open-button">See more</button>
+      </article>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>
